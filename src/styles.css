@@ -9,7 +9,7 @@ text-align:left;
 } 
 
 .task{
-color: white;
+color: blueviolet;
     font-size: 48px;
     font-weight: bold;
     text-shadow:2px 2px rgba(50, 50, 130, 1);
@@ -24,6 +24,9 @@ h3{
 
 .body {
     background-color: white;
+    width:768px;
+    display:block;
+    margin:0 auto;
     font-family: 'Raleway', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -31,10 +34,10 @@ h3{
 
 
 #cat{
-    max-height:100px;
-    width:auto;
-border-color:white;
-    margin-right: 1%;
+    max-height:50px;
+    margin-bottom:0px;
+   
+
 }
 
 .searchBar{
@@ -44,8 +47,8 @@ margin-top:20px;
 }
 
 #label1{
-border: solid 4px rgba(0, 98, 105, 1);
-box-shadow:2px 2px rgba(0, 98, 105, 1);
+border: solid 4px blueviolet;
+box-shadow:2px 2px blueviolet;;
 box-shadow:3px 3px black;
     
 }
@@ -53,7 +56,7 @@ box-shadow:3px 3px black;
     max-width:100%;
 }
 .buttonSearch{
-    background-color:rgba(0,98,105,1);
+    background-color: blueviolet;
     font-size:18px;
     color:white;
     border: 1px dashed black;
@@ -65,25 +68,25 @@ box-shadow:3px 3px black;
 
 .buttonSearch:hover{
     background-color:white;
-    color:rgba(0,98,105, 1);
-    box-shadow: 7px 7px rgba(0, 98, 105, 1);
+    color: blueviolet;
+    box-shadow: 7px 7px blueviolet;
 }
 
 .weatherDisplay{
 color: black;
 background-color: white;
-display:block;
-border: 5px dotted  rgba(50, 50, 130, 0.5);
-padding: 40px 40px 40px 40px;
-margin:20px 0 20px 0 ;
-border-radius:20px;
+text-align:right;
+border-top: black 1px dotted;
+border-bottom: black 1px dotted;
+margin-bottom:20px;
+
+
 }
 
 
 
 #cityDisplay{
-    display:flex;
-    margin-left:0;
+    text-align:center;
     padding:0;
     font-size: 64px;
     line-height:64 px;
@@ -91,9 +94,7 @@ border-radius:20px;
 }
 
 #countryDisplay{
-    display:flex;
-    margin-left:0;
-    padding:0;
+   
 
 }
 
@@ -115,7 +116,7 @@ border-radius:20px;
     text-align:right;
     font-style:italic;
     margin-bottom:20px;
-    color:white;
+    color:black;
 text-decoration:wavy;
 text-decoration-color:blue}
 
@@ -149,6 +150,8 @@ padding: 5px 5px 5px 5px;
 .weather_temperature{
 text-align: left;
 font-weight:bold;
+margin-top:0px;
+
 
 }
 
@@ -157,6 +160,8 @@ font-weight:bold;
     border-radius:4px;
     padding: 2px;
     max-width:180px;
+    margin-top:-70px;
+    margin-right:10px;
     background-color:lightgrey;
 }
 
@@ -187,11 +192,11 @@ font-weight:bold;
 .app_background{
     border: 2px solid #000;
     border-radius:20px;
+    width:768px;
  
 padding:10px 10px 10px 10px;   
 margin:5px 5px 5px 5px;
-background: linear-gradient(189deg, rgba(0, 98, 105, 1) 0%, rgba(242, 242, 234, 1) 100%);
-    color: rgba(50, 50, 130, 1);
+background-color: white;
 }
 .weather_week{
     
@@ -308,15 +313,14 @@ color:black;
 
 #degrees{
     font-size:30px;
+    text-align: right;
 }
 .gitRef{
-  display:box;
-  max-width:350px;
-  margin-top:40px;
-  margin-left:38%;
-  margin-right: 0px;;
+ 
+    text-align:center;
+ 
   font-style:italic;
-  color: darkblue;
+  color:black;
 }
 
 .gitRef a{
